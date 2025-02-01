@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		4F08899E2D3A8C3800186695 /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0889A12D3A8C3800186695 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		4FDCC3682D4B4E8D00F713C3 /* Knight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Knight.h; sourceTree = "<group>"; };
+		4FDCC3692D4B565500F713C3 /* Monster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		4FDCC36A2D4B5B5A00F713C3 /* game_logic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game_logic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				4F0889A12D3A8C3800186695 /* main.cpp */,
+				4FDCC36A2D4B5B5A00F713C3 /* game_logic.cpp */,
+				4FDCC3682D4B4E8D00F713C3 /* Knight.h */,
+				4FDCC3692D4B565500F713C3 /* Monster.h */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
